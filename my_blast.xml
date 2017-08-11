@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>refseq_protein</BlastOutput_db>
+  <BlastOutput_query-ID>Query_144181</BlastOutput_query-ID>
+  <BlastOutput_query-def>ctg2_orf00417</BlastOutput_query-def>
+  <BlastOutput_query-len>216</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_144181</Iteration_query-ID>
+  <Iteration_query-def>ctg2_orf00417</Iteration_query-def>
+  <Iteration_query-len>216</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|490197082|ref|WP_004095615.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-homoserine-lactone synthase [Hafnia]</Hit_def>
+  <Hit_accession>WP_004095615</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.284</Hsp_bit-score>
+      <Hsp_score>1157</Hsp_score>
+      <Hsp_evalue>1.96107e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVIKTALV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVIKTALV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVIKTALV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|647467832|ref|WP_025796975.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Hafnia alvei]</Hit_def>
+  <Hit_accession>WP_025796975</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>3.31409e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELNGVRSDELYRLRKKTFSDRLGWDVVCNKDMEFDEFDNPNTRYILGLYEGQLVCSVRFVPLDEPNMITHTFQACFSDVPLPAGETESSRFFVDKSRARDLLGERYPLSQVLFLAMINYARHYGCNGIYTIVSRAMLTILKRSGWQIKPLKEAYLSEDERIYLVYLPTDSVSQNKMATKITASVGGIQSQMVNWPMSIAV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+ELNGVRSDELYRLRKKTFSDRLGWDVVCN+ MEFDEFDNPNTRYILGLYEGQL+CSVRFVPL+ PNMITHTF +CF DV LPAGE ESSRFFVDKSRARDLLGERYP+SQVLFLAMINYAR Y  NGIYTIVSRAMLTILKRSGWQ++ LKEAYLSE+ERIYL+YLPTDS SQ KMATKI A  G    +  +WPMS+AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|759785757|ref|WP_043493511.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Hafnia alvei]</Hit_def>
+  <Hit_accession>WP_043493511</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>1.57238e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELNGVRSDELYRLRKKTFSDRLGWDVVCNKDMEFDEFDNPNTRYILGLYEGQLVCSVRFVPLDEPNMITHTFQACFSDVPLPAGETESSRFFVDKSRARDLLGERYPLSQVLFLAMINYARHYGCNGIYTIVSRAMLTILKRSGWQIKPLKEAYLSEDERIYLVYLPTDSVSQNKMAAKITASVGGIQSQMVNWPMSIAV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+ELNGVRSDELYRLRKKTFSDRLGWDVVCN+ MEFDEFDNPNTRYILGLYEGQL+CSVRFVPL+ PNMITHTF +CF DV LPAGE ESSRFFVDKSRARDLLGERYP+SQVLFLAMINYAR Y  NGIYTIVSRAMLTILKRSGWQ++ LKEAYLSE+ERIYL+YLPTDS SQ KMA KI A  G    +  +WPMS+AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|810913491|ref|WP_046359884.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Hafnia alvei]</Hit_def>
+  <Hit_accession>WP_046359884</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>1.77394e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELNGVRSDELYRLRKKTFSDRLGWDVVCNKDMEFDEFDNPNTRYILGLYEGQLVCSVRFVPLDEPNMITHTFQACFSDVPLPAGETESSRFFVDKSRARDLLGERYPLSQVLFLAMINYARHYGCNGIYTIVSRAMLTILKRSGWQIKPLKEAYLSEDERIYLVYLPTDSVSQNKMAAKITASVGGIQSQLVNWPMSIAV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+ELNGVRSDELYRLRKKTFSDRLGWDVVCN+ MEFDEFDNPNTRYILGLYEGQL+CSVRFVPL+ PNMITHTF +CF DV LPAGE ESSRFFVDKSRARDLLGERYP+SQVLFLAMINYAR Y  NGIYTIVSRAMLTILKRSGWQ++ LKEAYLSE+ERIYL+YLPTDS SQ KMA KI A  G    +  +WPMS+AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1119332438|ref|WP_072309736.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Hafnia alvei]</Hit_def>
+  <Hit_accession>WP_072309736</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.311</Hsp_bit-score>
+      <Hsp_score>939</Hsp_score>
+      <Hsp_evalue>2.93754e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELNGVRSDELYRLRKKTFSDRLGWDVVCNKDMEFDEFDNPNTRYILGLYEGQLVCSVRFVPLDEPNMITHTFQACFADVPLPAGEMESSRFFVDKSRARDLLGERYPLSQVLFLAMINYARHYGCNGIYTIVSRAMLTILKRSGWQIKPLKEAYLSEDERIYLVYLPTDSASQTKMAAKISASVSGIQSQLVNWPMSIAV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+ELNGVRSDELYRLRKKTFSDRLGWDVVCN+ MEFDEFDNPNTRYILGLYEGQL+CSVRFVPL+ PNMITHTF +CF DV LPAGE+ESSRFFVDKSRARDLLGERYP+SQVLFLAMINYAR Y  NGIYTIVSRAMLTILKRSGWQ++ LKEAYLSE+ERIYL+YLPTDS SQ KMA KI+A       +  +WPMS+AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|815729060|ref|WP_046460017.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-homoserine-lactone synthase [Hafniaceae]</Hit_def>
+  <Hit_accession>WP_046460017</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>4.31168e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELNGVRSDELYRLRKKTFSDRLGWDVVCNKDMEFDEFDNPNTRYILGLYEGQLVCSVRFVPLDEPNMITHTFQACFSDVPLPAGETESSRFFVDKSRARDLLGERYPLSQVLFLAMINYARHYGCNGIYTIVSRAMLTILKRSGWQIKPLKEAYLSEDERIYLVYLPTDSASQAKMAAKIGVSVSGIQSQLVNWPMSIAV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+ELNGVRSDELYRLRKKTFSDRLGWDVVCN+ MEFDEFDNPNTRYILGLYEGQL+CSVRFVPL+ PNMITHTF +CF DV LPAGE ESSRFFVDKSRARDLLGERYP+SQVLFLAMINYAR Y  NGIYTIVSRAMLTILKRSGWQ++ LKEAYLSE+ERIYL+YLPTDS SQAKMA KI         +  +WPMS+AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|748798628|ref|WP_040046599.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Hafnia alvei]</Hit_def>
+  <Hit_accession>WP_040046599</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.54</Hsp_bit-score>
+      <Hsp_score>937</Hsp_score>
+      <Hsp_evalue>5.99102e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELNGVRSDELYRLRKKTFSDRLGWDVVCNKDMEFDEFDNPNTRYILGLYEGQLVCSVRFVPLDEPNMITHTFQACFSDVPLPAGETESSRFFVDKSRARDLLGERYPLSQVLFLAMINYARHYGCNGIYTIVSRAMLTILKRSGWQIKPLKEAYLSEDERIYLVYLPTDSASQNKMAAKITASVSGIQSQLVNWPMSIAV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+ELNGVRSDELYRLRKKTFSDRLGWDVVCN+ MEFDEFDNPNTRYILGLYEGQL+CSVRFVPL+ PNMITHTF +CF DV LPAGE ESSRFFVDKSRARDLLGERYP+SQVLFLAMINYAR Y  NGIYTIVSRAMLTILKRSGWQ++ LKEAYLSE+ERIYL+YLPTDS SQ KMA KI A       +  +WPMS+AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1056216963|ref|WP_067700374.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Erwinia sp. ErVv1]</Hit_def>
+  <Hit_accession>WP_067700374</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.747</Hsp_bit-score>
+      <Hsp_score>896</Hsp_score>
+      <Hsp_evalue>1.02317e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVA</Hsp_qseq>
+      <Hsp_hseq>MLEFFDVSYDELKGVQSDELYRLRKKTFSDRLGWDVVCNRDMEFDEFDAPGTRYLLGLYEGQLICSVRFTPLDQPNMITHTFKACFEDVPLPPGERESSRFFVDKARARQLLGERYPISQMLFLAMINYARHYSYNGIYTIVSRAMLTILKRSGWQIKPLKEAWLSEKERIYLLFLPTDRESQAQMAAKINATIHASEPSLVSWPMSLT</Hsp_hseq>
+      <Hsp_midline>MLE FDVSYDEL GV+SDELYRLRKKTFSDRLGWDVVCNR MEFDEFD P TRY+LGLYEGQLICSVRF PL+ PNMITHTF +CF DV LP GE ESSRFFVDK+RAR LLGERYP+SQ+LFLAMINYAR Y+ NGIYTIVSRAMLTILKRSGWQ++ LKEA+LSE+ERIYLL+LPTD +SQA+MA KINA    S P    WPMS+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|496403319|ref|WP_009112309.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Brenneria sp. EniD312]</Hit_def>
+  <Hit_accession>WP_009112309</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>2.35477e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYDELTGKHSDELYRLRKKTFSDRLGWDVVCSYDMEFDEFDNPATRYILGLCEGQLICSVRFTGLDRPNMITHTFQECFGDVTLPVSGVESSRFFVDKTRARQLPGLRYPVSQALFLAMINWARRHERSAIHTIVSRPMLTILKRSGWQIRPLKEAFLNERERIYLVYLPTGSEDQERMASGFVALPGCSSLSVITWPLSL</Hsp_hseq>
+      <Hsp_midline>MLELFDVSYDEL G  SDELYRLRKKTFSDRLGWDVVC+  MEFDEFDNP TRYILGL EGQLICSVRF  L+ PNMITHTF  CF DV+LP   VESSRFFVDK+RAR L G RYPVSQ LFLAMIN+AR++  + I+TIVSR MLTILKRSGWQ+R LKEA+L+E ERIYL+YLPT S+ Q +MA+   A  GCS      WP+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1184547266|ref|WP_085115258.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Serratia proteamaculans]</Hit_def>
+  <Hit_accession>WP_085115258</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>3.67208e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYDELKATHSDELYRLRKKTFSDRLGWDVACKLDMEFDEFDNPNTSYILGLCQGQLICSVRFTALSQPNMITHTFQASFDSVSLPLVGIESSRFFVDKTWARLLLGEQYPVSQALFQAMINWARHHERNGIHTIVSRAMLRILKRSGWQVSVLKEAYLSERERIYLLFLPTGPEDQARMASGIITDLGCPAPSVITWPLLLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSYDEL    SDELYRLRKKTFSDRLGWDV C   MEFDEFDNPNT YILGL +GQLICSVRF  L  PNMITHTF + F  VSLP   +ESSRFFVDK+ AR LLGE+YPVSQ LF AMIN+AR +  NGI+TIVSRAML ILKRSGWQV VLKEAYLSE ERIYLL+LPT  + QA+MA+ I    GC  P    WP+ + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1006551740|ref|WP_061799837.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Serratia ficaria]</Hit_def>
+  <Hit_accession>WP_061799837</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>1.03941e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSFEELKMTHSNELYRLRKKTFSDRLRWDVVCNLDMEFDEFDTPGTRYILGLCQGQLICSVRFTGLDQPNMITHTFRTCFDSVPLPHAGIESSRFFVDKARARHLLGERYPISQVLFLAMINWARHHRRNGIHTIVSRAMLTILKRSGWQIKQLKEAFLSERERIYLVYLPTEQAEQTRMAEGVITELNCPASSVITWPMSLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVS++EL    S+ELYRLRKKTFSDRL WDVVCN  MEFDEFD P TRYILGL +GQLICSVRF  L+ PNMITHTF +CF  V LP   +ESSRFFVDK+RAR LLGERYP+SQVLFLAMIN+AR +  NGI+TIVSRAMLTILKRSGWQ++ LKEA+LSE ERIYL+YLPT+   Q +MA  +     C       WPMS+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|736821313|ref|WP_034822949.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Enterobacter cancerogenus]</Hit_def>
+  <Hit_accession>WP_034822949</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>3.00722e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELRTTRASELYRLRKQTFSDRLGWDVVCSQGMESDEFDGPGTQYILGLYQGQLICSVRFAALSQPNMITHTFRDCFSTVALPANGTESSRFFVDKARARSLLGESYPVSQVLFLAMVNWAQQRGHARIHTIVSRAMLTILRRSGWQIAVLKEAHLTEKERIYLLTLPASGEDQLKLAGSVIARTGCEPQEATTWPLKLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL   R+ ELYRLRK+TFSDRLGWDVVC++GME DEFD P T+YILGLY+GQLICSVRF  L  PNMITHTF  CF  V+LPA   ESSRFFVDK+RAR LLGE YPVSQVLFLAM+N+A+Q     I+TIVSRAMLTIL+RSGWQ+ VLKEA+L+E+ERIYLL LP   + Q K+A  + A  GC   E   WP+ + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|639188055|ref|WP_024527295.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Serratia fonticola]</Hit_def>
+  <Hit_accession>WP_024527295</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.671</Hsp_bit-score>
+      <Hsp_score>766</Hsp_score>
+      <Hsp_evalue>6.54433e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYDELRVTHSNELYRLRKKIFSDRLGWDVVCNIDMEFDEFDNPDTRYILGLYNGQLVCSVRFTGLEQPNMITHTFHACFDTVQLPLAGIESSRFFVDKSRARKLLGGRYPLSQVLFLAMINWARHNECNGIHTIVSRPMLTILKRSGWHVKVLKEAFLSERECIYLVFLPTETEDRDQMASGLISEFGYPAAAAITWPLSLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSYDEL    S+ELYRLRKK FSDRLGWDVVCN  MEFDEFDNP+TRYILGLY GQL+CSVRF  LE PNMITHTFH+CF  V LP   +ESSRFFVDKSRAR LLG RYP+SQVLFLAMIN+AR    NGI+TIVSR MLTILKRSGW V+VLKEA+LSE E IYL++LPT+++ + +MA+ + +  G        WP+S+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|746281253|ref|WP_039328728.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Pantoea rodasii]</Hit_def>
+  <Hit_accession>WP_039328728</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>6.31518e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELRTTRASELYRLRKQTFSDRLGWDVVCSQGMESDEFDGPGTQYILGLYEGQLICSVRFAALSQPNMITHTFRDCFSTVALPAEGTESSRFFVDKARARSLLGESYPVSQVLFLAMVNWAQQRGHARIHTIVSRAMLTILRRSGWQIAVLKEAHLTEKERIYLLTLPAAGEDQMMLAGSVIARTGCAPQTATTWPLKLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL   R+ ELYRLRK+TFSDRLGWDVVC++GME DEFD P T+YILGLYEGQLICSVRF  L  PNMITHTF  CF  V+LPA   ESSRFFVDK+RAR LLGE YPVSQVLFLAM+N+A+Q     I+TIVSRAMLTIL+RSGWQ+ VLKEA+L+E+ERIYLL LP   + Q  +A  + A  GC+      WP+ + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|491089143|ref|WP_004950753.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Serratia plymuthica]</Hit_def>
+  <Hit_accession>WP_004950753</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.68018e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELKVTHSNELYRLRKKTFSDRLGWDVACNLDMEFDEFDNPRTRYILGLCQGQLVCSVRFIALSQPNMITHTFCSCFDSVHIPFEGIESSRFFVDKARARQLLGEQYPVSQALFLAMINWGHHHERNGIHTIVSRAMLRILQRSGWKISVLKEAFLTERERIYLVFLPTGSEDQNRMASGIVTGLGCPRSSVITWPLSLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL    S+ELYRLRKKTFSDRLGWDV CN  MEFDEFDNP TRYILGL +GQL+CSVRF+ L  PNMITHTF SCF  V +P   +ESSRFFVDK+RAR LLGE+YPVSQ LFLAMIN+   +  NGI+TIVSRAML IL+RSGW++ VLKEA+L+E ERIYL++LPT S+ Q +MA+ I    GC       WP+S+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|948113968|ref|WP_056772484.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Serratia sp. Leaf51]</Hit_def>
+  <Hit_accession>WP_056772484</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>9.80544e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELRMTRVDELYRLRKTTFSDRLGWEVVCQQDMEFDEFDNDSTRYILGLYKGKLICSVRFTPLDQPNMITHTFRACFDSIPLPFAGVESSRFFVDKLRARELLGERYPVSQVLFLAMINWAQDNGHTGIYTIVSRAMLTILKRSGWQIQTLKEAFLSERERIYLIYLPAGEEDQRIMARGLN---GQTASVFT-WPLTLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL   R DELYRLRK TFSDRLGW+VVC + MEFDEFDN +TRYILGLY+G+LICSVRF PL+ PNMITHTF +CF  + LP   VESSRFFVDK RAR+LLGERYPVSQVLFLAMIN+A+     GIYTIVSRAMLTILKRSGWQ++ LKEA+LSE ERIYL+YLP   + Q  MA  +N   G +   F  WP+++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|640472074|ref|WP_024912648.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Chania multitudinisentens]</Hit_def>
+  <Hit_accession>WP_024912648</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>2.69348e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYDELKVTHSNELYRLRKKTFSDRLRWDVVCNVDLEFDEFDNPDTRYILGLYNGQLVCSVRFIGLEQPNMITHTFRACFDTVPLPLNGIESSRFFVDKDRARQLLGGRYPVSQVLFLAMINWARHNERNGIHTIVSRPMQTILKRSGWQIKTLKEAFLSERERIYLVFLPTGAEDRDQMASGLISEYGYPAESVITWPLSL</Hsp_hseq>
+      <Hsp_midline>MLELFDVSYDEL    S+ELYRLRKKTFSDRL WDVVCN  +EFDEFDNP+TRYILGLY GQL+CSVRF+ LE PNMITHTF +CF  V LP   +ESSRFFVDK RAR LLG RYPVSQVLFLAMIN+AR    NGI+TIVSR M TILKRSGWQ++ LKEA+LSE ERIYL++LPT ++ + +MA+ + +  G        WP+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1028127315|ref|WP_063879676.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Pantoea sp. OXWO6B1]</Hit_def>
+  <Hit_accession>WP_063879676</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>4.47046e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELQTTRSEELYKLRKKTFSDRLGWEVVCSQGMESDEFDGPGTRYILGICEGQLVCSVRFTRLDRPNMITHTFQHCFNDVPLPACGTESSRFFVDKARARELLGEHYPISQVLFLAMVNWAQDNAYNHIYTIVSRAMLKILKRSGWQISVVKEAFLTEKERIYLLTLPAGEEDKQQLGGDIVSRTGCAPVAVTTWPLTLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL   RS+ELY+LRKKTFSDRLGW+VVC++GME DEFD P TRYILG+ EGQL+CSVRF  L+ PNMITHTF  CF+DV LPA   ESSRFFVDK+RAR+LLGE YP+SQVLFLAM+N+A+    N IYTIVSRAML ILKRSGWQ+ V+KEA+L+E+ERIYLL LP   + + ++   I +  GC+      WP+++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|902506945|ref|WP_049597587.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Yersinia nurmii]</Hit_def>
+  <Hit_accession>WP_049597587</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.582</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>1.22122e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGE-VESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVSYEELMNMRSEDLYRLRKKTFKDRLQWAVKCSNDMEFDEYDNPNTRYLLGIYGSQLICSVRFIELNRPNMITHTFNALFDDITLPDNNYIESSRFFVDKTRAKLLLGNRYPISYVLFLAMINYTRHHGHTGIYTIVSRAMLTILKRSGWQVEVIKEAFVSEKERIYLLNLPTDLHNQALMASQINAFLQGPDSALRAWPISLPVI</Hsp_hseq>
+      <Hsp_midline>MLE+FDVSY+EL  +RS++LYRLRKKTF DRL W V C+  MEFDE+DNPNTRY+LG+Y  QLICSVRF+ L  PNMITHTF++ F D++LP    +ESSRFFVDK+RA+ LLG RYP+S VLFLAMINY R +   GIYTIVSRAMLTILKRSGWQV V+KEA++SE+ERIYLL LPTD  +QA MA++INAF          WP+S+ VI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1055873964|ref|WP_067435867.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Erwinia gerundensis]</Hit_def>
+  <Hit_accession>WP_067435867</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.812</Hsp_bit-score>
+      <Hsp_score>743</Hsp_score>
+      <Hsp_evalue>2.13973e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYDELTGKHSHELYRLRKKTFSDRLGWDVVCKQDMEFDEFDNPATRYILGFCQQQLVCSVRFTGLEQPNMITHTFRHCFEEMTLPPDGIESSRFFVDKTRARTLLGERYPVSQALFLAMINWARHNGYAGIHTIVSRPMLTILKRSGWRFTTLKEAFLSEQESIYLLWLPTGEADQHSMAAKLLAHPNASAASALTWPLCLTA</Hsp_hseq>
+      <Hsp_midline>MLELFDVSYDEL G  S ELYRLRKKTFSDRLGWDVVC + MEFDEFDNP TRYILG  + QL+CSVRF  LE PNMITHTF  CF +++LP   +ESSRFFVDK+RAR LLGERYPVSQ LFLAMIN+AR     GI+TIVSR MLTILKRSGW+   LKEA+LSE+E IYLL+LPT    Q  MA K+ A    S      WP+ +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|811229445|ref|WP_046374783.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Serratia liquefaciens]</Hit_def>
+  <Hit_accession>WP_046374783</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.426</Hsp_bit-score>
+      <Hsp_score>742</Hsp_score>
+      <Hsp_evalue>2.75643e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELKTTHSSELYRLRKKTFSDRLGWDVACNLDMEFDEFDNSGTRYILGLCNGQLVCSVRFTALSQPNMITHTFRACFDSVKLPVEGVESSRFFVDKAHARRLLGERYPVSQALFLAMINWALHHKYNAIHTIVSRAMLRILKRSGWQIRVLKEAFLSEHERIYLVVLPTGPEDQNQMASGIISGLNCPAVTVITWPLSL</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL    S ELYRLRKKTFSDRLGWDV CN  MEFDEFDN  TRYILGL  GQL+CSVRF  L  PNMITHTF +CF  V LP   VESSRFFVDK+ AR LLGERYPVSQ LFLAMIN+A  +  N I+TIVSRAML ILKRSGWQ+RVLKEA+LSE ERIYL+ LPT  + Q +MA+ I +   C       WP+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|493068089|ref|WP_006119202.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Pantoea stewartii]</Hit_def>
+  <Hit_accession>WP_006119202</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.041</Hsp_bit-score>
+      <Hsp_score>741</Hsp_score>
+      <Hsp_evalue>3.35213e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELQTTRSEELYKLRKKTFSDRLGWEVICSQGMESDEFDGPGTRYILGICEGQLVCSVRFTSLDRPNMITHTFQHCFSDVTLPAYGTESSRFFVDKARARALLGEHYPISQVLFLAMVNWAQNNAYGNIYTIVSRAMLKILTRSGWQIKVIKEAFLTEKERIYLLTLPAGQDDKQQLGGDVVSRTGCPPVAVTTWPLTLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL   RS+ELY+LRKKTFSDRLGW+V+C++GME DEFD P TRYILG+ EGQL+CSVRF  L+ PNMITHTF  CF DV+LPA   ESSRFFVDK+RAR LLGE YP+SQVLFLAM+N+A+      IYTIVSRAML IL RSGWQ++V+KEA+L+E+ERIYLL LP   D + ++   + +  GC       WP+++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1035666122|ref|WP_064513261.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Yersinia entomophaga]</Hit_def>
+  <Hit_accession>WP_064513261</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.426</Hsp_bit-score>
+      <Hsp_score>742</Hsp_score>
+      <Hsp_evalue>3.41763e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGE-VESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVSYEELMNMRSEDLYRLRKKTFKDRLQWAVKCSNDMEFDEYDNPNTRYLLGIYGSQLICSVRFIELNRPNMITHTFNALFDDITLPDNNYIESSRFFVDKTRAKLLLGNRYPISYVLFLAMINYTRHHGHTGIYTIVSRAMLTILKRSGWQIEIIKEAFVSEKERIYLLNLPTDLHNQALMASQINAFLQGPDSALRAWPISLPVI</Hsp_hseq>
+      <Hsp_midline>MLE+FDVSY+EL  +RS++LYRLRKKTF DRL W V C+  MEFDE+DNPNTRY+LG+Y  QLICSVRF+ L  PNMITHTF++ F D++LP    +ESSRFFVDK+RA+ LLG RYP+S VLFLAMINY R +   GIYTIVSRAMLTILKRSGWQ+ ++KEA++SE+ERIYLL LPTD  +QA MA++INAF          WP+S+ VI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|655315830|ref|WP_028724276.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Pantoea ananatis]</Hit_def>
+  <Hit_accession>WP_028724276</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.041</Hsp_bit-score>
+      <Hsp_score>741</Hsp_score>
+      <Hsp_evalue>4.65558e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELQTTRSEELYKLRKKTFSDRLGWEVVCSQGMESDEFDGPGTRYILGICEGQLVCSVRFTRLDRPNMITHTFRHCFDDVPLPAYGTESSRFFVDKARARELLGEHYPVSQVLFLAMVNWAQNNAYTHIYTIVSRAMLKILKRSGWQISVVKEAFLTEKERIYLLTLPAGKADKQQLGGDIVARTGCAPVAVTTWPLTLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL   RS+ELY+LRKKTFSDRLGW+VVC++GME DEFD P TRYILG+ EGQL+CSVRF  L+ PNMITHTF  CF DV LPA   ESSRFFVDK+RAR+LLGE YPVSQVLFLAM+N+A+      IYTIVSRAML ILKRSGWQ+ V+KEA+L+E+ERIYLL LP     + ++   I A  GC+      WP+++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|938515561|ref|WP_054633739.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Pantoea stewartii]</Hit_def>
+  <Hit_accession>WP_054633739</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>6.75531e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELQTTRSEELYKLRKKTFSDRLGWEVICSQGMESDEFDGPGTRYILGICEGQLVCSVRFTRLDRPNMITHTFQHCFSDVTLPAYGTESSRFFVDKARARALLGEHYPISQVLFLAMVNWAQNNAYGNIYTIVSRAMLKILTRSGWQIKVIKEAFLTEKERIYLLTLPAGQDDKQQLGGDVVSRTGCPPVAVTTWPLTLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL   RS+ELY+LRKKTFSDRLGW+V+C++GME DEFD P TRYILG+ EGQL+CSVRF  L+ PNMITHTF  CF DV+LPA   ESSRFFVDK+RAR LLGE YP+SQVLFLAM+N+A+      IYTIVSRAML IL RSGWQ++V+KEA+L+E+ERIYLL LP   D + ++   + +  GC       WP+++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|517934980|ref|WP_019105188.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Pantoea ananatis]</Hit_def>
+  <Hit_accession>WP_019105188</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>6.90486e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELQTTRSEELYKLRKKTFSDRLGWEVVCSQGMESDEFDGPGTRYILGICEGQLVCSVRFTCLDRPNMITHTFRHCFDDVPLPAYGTESSRFFVDKARARELLGEHYPVSQVLFLAMVNWAQNNAYTHIYTIVSRAMLKILKRSGWQISVVKEAFLTEKERIYLLTLPAGETDKQQLGGDIVARTGCAPVAVTTWPLTLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL   RS+ELY+LRKKTFSDRLGW+VVC++GME DEFD P TRYILG+ EGQL+CSVRF  L+ PNMITHTF  CF DV LPA   ESSRFFVDK+RAR+LLGE YPVSQVLFLAM+N+A+      IYTIVSRAML ILKRSGWQ+ V+KEA+L+E+ERIYLL LP     + ++   I A  GC+      WP+++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|504406657|ref|WP_014593759.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-homoserine-lactone synthase [Pantoea]</Hit_def>
+  <Hit_accession>WP_014593759</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>7.96104e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELQTTRSEELYKLRKKTFSDRLGWEVVCSQGMESDEFDGPGTRYILGICEGQLVCSVRFTCLDRPNMITHTFRHCFDDVPLPAYGTESSRFFVDKARARELLGEHYPVSQVLFLAMVNWAQNNAYTHIYTIVSRAMLKILKRSGWQISVVKEAFLTEKERIYLLTLPAGEADKQQLGGDIVARTGCAPVAVTTWPLTLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL   RS+ELY+LRKKTFSDRLGW+VVC++GME DEFD P TRYILG+ EGQL+CSVRF  L+ PNMITHTF  CF DV LPA   ESSRFFVDK+RAR+LLGE YPVSQVLFLAM+N+A+      IYTIVSRAML ILKRSGWQ+ V+KEA+L+E+ERIYLL LP     + ++   I A  GC+      WP+++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|970421065|ref|WP_058705719.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Pantoea ananatis]</Hit_def>
+  <Hit_accession>WP_058705719</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.189</Hsp_bit-score>
+      <Hsp_score>731</Hsp_score>
+      <Hsp_evalue>1.21594e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELQTTRSEELYKLRKKTFSDRLGWEVVCSQGMESDEFDGPGTRYILGICQGLLVCSVRFTRLDRPNMITHTFRHCFEDVPLPAYGTESSRFFVDKARARELLGEHYPVSQVLFLAMVNWAQNNAYTHIYTIVSRAMLKILKRSGWQISVVKEAFLTEKERIYLLTLPAGKADKQQLGGDIVARTGCAPVAVTTWPLTLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL   RS+ELY+LRKKTFSDRLGW+VVC++GME DEFD P TRYILG+ +G L+CSVRF  L+ PNMITHTF  CF DV LPA   ESSRFFVDK+RAR+LLGE YPVSQVLFLAM+N+A+      IYTIVSRAML ILKRSGWQ+ V+KEA+L+E+ERIYLL LP     + ++   I A  GC+      WP+++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1116000297|ref|WP_072138074.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Pantoea ananatis]</Hit_def>
+  <Hit_accession>WP_072138074</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>1.56411e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYEELQTTRSEELYKLRKKTFSDRLGWEVVCSQGMESDEFDGPGTRYILGICEEQLVCSVRFTCLDRPNMITHTFRHCFDDVPLPAYGTESSRFFVDKARARELLGEHYPVSQVLFLAMVNWAQNNAYTHIYTIVSRAMLKILKRSGWQISVVKEAFLTEKERIYLLTLPAGEADKQQLGGDIVARTGCAPVAVTTWPLTLPV</Hsp_hseq>
+      <Hsp_midline>MLELFDVSY+EL   RS+ELY+LRKKTFSDRLGW+VVC++GME DEFD P TRYILG+ E QL+CSVRF  L+ PNMITHTF  CF DV LPA   ESSRFFVDK+RAR+LLGE YPVSQVLFLAM+N+A+      IYTIVSRAML ILKRSGWQ+ V+KEA+L+E+ERIYLL LP     + ++   I A  GC+      WP+++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|515915400|ref|WP_017345983.1|</Hit_id>
+  <Hit_def>hypothetical protein [Pantoea sp. A4]</Hit_def>
+  <Hit_accession>WP_017345983</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>3.78244e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELIDVSYEELKTTRATELYRLRKQTFSDRLGWDVVCSQGMESDEFDVPGTRYILGIYEGHLICSVRFIALSQPNMITHTFRECFDTVELPAGGTESSRFFVDKERARSLLGKDYPVSQALFLAMVNWGRKNHHANIHTIVSRAMLKILRRSGWQIEVLKEAYLTEKERIYLLDLPAGKKDQEQLAGSVLQHTGSTESAAFTWPLMLPV</Hsp_hseq>
+      <Hsp_midline>MLEL DVSY+EL   R+ ELYRLRK+TFSDRLGWDVVC++GME DEFD P TRYILG+YEG LICSVRF+ L  PNMITHTF  CF  V LPAG  ESSRFFVDK RAR LLG+ YPVSQ LFLAM+N+ R+ +   I+TIVSRAML IL+RSGWQ+ VLKEAYL+E+ERIYLL LP     Q ++A  +    G +      WP+ + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|644960502|ref|WP_025381257.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-homoserine-lactone synthase [Yersinia pseudotuberculosis complex]</Hit_def>
+  <Hit_accession>WP_025381257</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>2.10156e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVRYDELTDIRSEDLYKLRKKTFKDRLNWEVNCSNGMEFDEYDNSDTRYLLGIYQGQLICSVRFIELHLPNMITHTFNALFDDVVLPKRGYIESSRFFVDKTRAKLLFGSHYPISYLFFLSIINYSRHNGYTGIYTIVSRAMLTILKRSGWQVEVIKEAHITEKERIYLLHLPIDRDNQARLLLQVNQRLQDSCSVLNTWPISLPVM</Hsp_hseq>
+      <Hsp_midline>MLE+FDV YDEL  +RS++LY+LRKKTF DRL W+V C+ GMEFDE+DN +TRY+LG+Y+GQLICSVRF+ L LPNMITHTF++ F DV LP  G +ESSRFFVDK+RA+ L G  YP+S + FL++INY+R     GIYTIVSRAMLTILKRSGWQV V+KEA+++E+ERIYLL+LP D D+QA++  ++N     S      WP+S+ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|740412276|ref|WP_038245616.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Yersinia ruckeri]</Hit_def>
+  <Hit_accession>WP_038245616</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>2.1956e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGE-VESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVSYEELMDMRSDDLYRLRKKTFKDRLQWAVNCSNDMEFDEYDNPNTRYLLGIYGNQLICSVRFIELHRPNMITHTFNAQFDDIILPEGNYIESSRFFVDKSGAKTLLGNRYPISYVLFLAVINYTRHHKHTGIYTIVSRAMLTILKRSGWQFDVIKEAFVSEKERIYLLRLPVDKHNQALLASQVNQVLQGSDSALLAWPISLPVI</Hsp_hseq>
+      <Hsp_midline>MLE+FDVSY+EL  +RSD+LYRLRKKTF DRL W V C+  MEFDE+DNPNTRY+LG+Y  QLICSVRF+ L  PNMITHTF++ F D+ LP G  +ESSRFFVDKS A+ LLG RYP+S VLFLA+INY R +   GIYTIVSRAMLTILKRSGWQ  V+KEA++SE+ERIYLL LP D  +QA +A+++N     S      WP+S+ VI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|488144695|ref|WP_002215903.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-homoserine-lactone synthase [Yersinia] &gt;gi|218928156|ref|YP_002346031.1| N-acylhomoserine lactone synthase [Yersinia pestis CO92]</Hit_def>
+  <Hit_accession>WP_002215903</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.026</Hsp_bit-score>
+      <Hsp_score>715</Hsp_score>
+      <Hsp_evalue>4.05254e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAF--EGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVRYDELTDIRSEDLYKLRKKTFKDRLNWEVNCSNGMEFDEYDNSDTRYLLGIYQGQLICSVRFIELHLPNMITHTFNALFDDVALPKRGYIESSRFFVDKTRAKLLFGNHYPISYLFFLSIINYSRHNGYTGIYTIVSRAMLTILKRSGWQVEVIKEAHITEKERIYLLHLPIDRDNQARLLLQVNQRLQDPCSV--LSTWPISLPVM</Hsp_hseq>
+      <Hsp_midline>MLE+FDV YDEL  +RS++LY+LRKKTF DRL W+V C+ GMEFDE+DN +TRY+LG+Y+GQLICSVRF+ L LPNMITHTF++ F DV+LP  G +ESSRFFVDK+RA+ L G  YP+S + FL++INY+R     GIYTIVSRAMLTILKRSGWQV V+KEA+++E+ERIYLL+LP D D+QA++  ++N    + CS+     WP+S+ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|910782294|ref|WP_050087726.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-homoserine-lactone synthase [Yersinia]</Hit_def>
+  <Hit_accession>WP_050087726</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>2.81182e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVKYDELTDIRSEDLYKLRKKTFKDRLNWAVNCSNGMEFDEYDNPDTRYLLGIYQGQLICSVRFIDLHLPNMITHTFTTLFEDIALPGKGYIESSRFFVDKTRAKLLFGGTYPISYVFFLSIINYSRHHGYTGIYTIVSRAMLTILKRSGWQVEVIKEAYVTENEPIYLLCLPTDQYNQTQLLRQVNQRLQDSDSILSAWPMALPVM</Hsp_hseq>
+      <Hsp_midline>MLE+FDV YDEL  +RS++LY+LRKKTF DRL W V C+ GMEFDE+DNP+TRY+LG+Y+GQLICSVRF+ L LPNMITHTF + F D++LP  G +ESSRFFVDK+RA+ L G  YP+S V FL++INY+R +   GIYTIVSRAMLTILKRSGWQV V+KEAY++E E IYLL LPTD  +Q ++  ++N     S      WPM++ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|488337554|ref|WP_002406939.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Yersinia pestis]</Hit_def>
+  <Hit_accession>WP_002406939</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>5.42185e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAF--EGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVRYDELTDIRSEDLYKLRKKTFKDRLNWEVNCSNGMEFDEYDNSDTRYLLGIYQGQLICSVRFIELHLPNMITHTFNALFDDVALPKRGYIESSRFFVDKTRAKLLFGNHYPISYLFFLSIINYSRHNGYTGIYTIVSRAMLTILKRSGWQGEVIKEAHITEKERIYLLHLPIDRDNQARLLLQVNQRLQDPCSV--LSTWPISLPVM</Hsp_hseq>
+      <Hsp_midline>MLE+FDV YDEL  +RS++LY+LRKKTF DRL W+V C+ GMEFDE+DN +TRY+LG+Y+GQLICSVRF+ L LPNMITHTF++ F DV+LP  G +ESSRFFVDK+RA+ L G  YP+S + FL++INY+R     GIYTIVSRAMLTILKRSGWQ  V+KEA+++E+ERIYLL+LP D D+QA++  ++N    + CS+     WP+S+ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1205111191|ref|WP_087816633.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Yersinia intermedia]</Hit_def>
+  <Hit_accession>WP_087816633</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>7.3658e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVKYDELTDIRSEDLYKLRKKTFKDRLNWAVNCSNGMEFDEYDNPDTRYLLGIYQGQLICSVRFIDLHLPNMITHTFTTLFEDIALPGKGYIESSRFFVDKTRAKLLFGGTYPISYVFFLSIINYSRHHGYTGIYTIVSRAMLTILKRSGWQVEVIKEAYVTENEPIYLLCLPTDQYNQTQLLRQVNQRLQDSDSILSAWPMVLPVM</Hsp_hseq>
+      <Hsp_midline>MLE+FDV YDEL  +RS++LY+LRKKTF DRL W V C+ GMEFDE+DNP+TRY+LG+Y+GQLICSVRF+ L LPNMITHTF + F D++LP  G +ESSRFFVDK+RA+ L G  YP+S V FL++INY+R +   GIYTIVSRAMLTILKRSGWQV V+KEAY++E E IYLL LPTD  +Q ++  ++N     S      WPM + V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|912933028|ref|WP_050312966.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Yersinia intermedia]</Hit_def>
+  <Hit_accession>WP_050312966</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>8.67977e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVKYDELTDIRSEDLYKLRKKTFKDRLNWAVNCSNGMEFDEYDNPDTRYLLGIYQGQLICSVRFIDLHLPNMITHTFTTLFEDIALPGKGYIESSRFFVDKTRAKLLFGGTYPISYVFFLSIINYSRHHGYTGIYTIVSRAMLTILKRSGWQVEVIKEAYVTKNEPIYLLCLPTDQYNQTQLLRQVNQRLQDSDSILSAWPMALPVM</Hsp_hseq>
+      <Hsp_midline>MLE+FDV YDEL  +RS++LY+LRKKTF DRL W V C+ GMEFDE+DNP+TRY+LG+Y+GQLICSVRF+ L LPNMITHTF + F D++LP  G +ESSRFFVDK+RA+ L G  YP+S V FL++INY+R +   GIYTIVSRAMLTILKRSGWQV V+KEAY+++ E IYLL LPTD  +Q ++  ++N     S      WPM++ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|696331988|ref|WP_032907296.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acyl-homoserine-lactone synthase [Yersinia]</Hit_def>
+  <Hit_accession>WP_032907296</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>9.06814e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVKYDELTDIRSEDLYKLRKKTFKDRLNWAVNCSNGMEFDEYDNPDTRYLLGIYQGQLICSVRFIDLHLPNMITHTFTTLFEDIALPGKGYIESSRFFVDKTRAKLLFGGTFPISYVFFLSIINYSRHHGYTGIYTIVSRAMLTILKRSGWQVEVIKEAYVTENEPIYLLCLPTDQYNQTQLLRQVNQRLQDSDSILSAWPMALPVM</Hsp_hseq>
+      <Hsp_midline>MLE+FDV YDEL  +RS++LY+LRKKTF DRL W V C+ GMEFDE+DNP+TRY+LG+Y+GQLICSVRF+ L LPNMITHTF + F D++LP  G +ESSRFFVDK+RA+ L G  +P+S V FL++INY+R +   GIYTIVSRAMLTILKRSGWQV V+KEAY++E E IYLL LPTD  +Q ++  ++N     S      WPM++ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|755754573|ref|WP_042569129.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Yersinia intermedia]</Hit_def>
+  <Hit_accession>WP_042569129</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>1.02281e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVKYDELTDIRSEDLYKLRKKTFKDRLNWAVNCSNGMEFDEYDNPDTRYLLGIYQGQLICSVRFIDLNLPNMITHTFTTLFEDIALPGKGYIESSRFFVDKTRAKLLFGGTFPISYVFFLSIINYSRHHGYTGIYTIVSRAMLTILKRSGWQVEVIKEAYVTENEPIYLLCLPTDQYNQTQLLRQVNQRLQDSDSILSAWPMALPVM</Hsp_hseq>
+      <Hsp_midline>MLE+FDV YDEL  +RS++LY+LRKKTF DRL W V C+ GMEFDE+DNP+TRY+LG+Y+GQLICSVRF+ L LPNMITHTF + F D++LP  G +ESSRFFVDK+RA+ L G  +P+S V FL++INY+R +   GIYTIVSRAMLTILKRSGWQV V+KEAY++E E IYLL LPTD  +Q ++  ++N     S      WPM++ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|510819150|ref|WP_016192680.1|</Hit_id>
+  <Hit_def>AHL-synthase EanI [Erwinia tracheiphila]</Hit_def>
+  <Hit_accession>WP_016192680</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>1.73689e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYDELKTTRSEELYRLRKTTFSDRLGWEVLCTQGMESDEFDGDGTRYILGLSGDTLVCSVRFTGLERPNMITHTFNACFNTVKLPDTGIESSRFFVDKARARALLGERFPVSQVLFLAMVNWAQRSGHDHIHTIVSRPMLTIVNRSGWQFTVLKEAFLSERERIYLLKLPAGEQAQTQLAQVIFAQTKCETNSLTTWPLMLPI</Hsp_hseq>
+      <Hsp_midline>MLELFDVSYDEL   RS+ELYRLRK TFSDRLGW+V+C +GME DEFD   TRYILGL    L+CSVRF  LE PNMITHTF++CF+ V LP   +ESSRFFVDK+RAR LLGER+PVSQVLFLAM+N+A++   + I+TIVSR MLTI+ RSGWQ  VLKEA+LSE ERIYLL LP    +Q ++A  I A   C       WP+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|736943030|ref|WP_034939992.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Erwinia mallotivora]</Hit_def>
+  <Hit_accession>WP_034939992</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>1.98065e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAV</Hsp_qseq>
+      <Hsp_hseq>MLELFDVSYDELKSTRSEELYRLRKTTFSDRLGWEVLCTQGMESDEFDGEGTHYILGLYGDRLVCSVRFTGLERPNMITHTFNACFNTVKLPDTGIESSRFFVDKARARALLGERFPVGQVLFLAMVNWAQRNGHDHIHTIVSRPMLTIVNRSGWQSTVLKEAFLSERERIYLLKLPAGEQAQTQLAQGIIAQTKCETTLLTTWPLMLPI</Hsp_hseq>
+      <Hsp_midline>MLELFDVSYDEL   RS+ELYRLRK TFSDRLGW+V+C +GME DEFD   T YILGLY  +L+CSVRF  LE PNMITHTF++CF+ V LP   +ESSRFFVDK+RAR LLGER+PV QVLFLAM+N+A++   + I+TIVSR MLTI+ RSGWQ  VLKEA+LSE ERIYLL LP    +Q ++A  I A   C       WP+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|914241963|ref|WP_050557094.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Yersinia pestis]</Hit_def>
+  <Hit_accession>WP_050557094</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.633</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>5.37973e-91</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>LFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAF--EGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MFDVRYDELTDIRSEDLYKLRKKTFKDRLNWEVNCSNGMEFDEYDNSDTRYLLGIYQGQLICSVRFIELHLPNMITHTFNALFDDVALPKRGYIESSRFFVDKTRAKLLFGNHYPISYLFFLSIINYSRHNGYTGIYTIVSRAMLTILKRSGWQVEVIKEAHITEKERIYLLHLPIDRDNQARLLLQVNQRLQDPCSV--LSTWPISLPVM</Hsp_hseq>
+      <Hsp_midline>+FDV YDEL  +RS++LY+LRKKTF DRL W+V C+ GMEFDE+DN +TRY+LG+Y+GQLICSVRF+ L LPNMITHTF++ F DV+LP  G +ESSRFFVDK+RA+ L G  YP+S + FL++INY+R     GIYTIVSRAMLTILKRSGWQV V+KEA+++E+ERIYLL+LP D D+QA++  ++N    + CS+     WP+S+ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|910809081|ref|WP_050108832.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Yersinia frederiksenii]</Hit_def>
+  <Hit_accession>WP_050108832</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.478</Hsp_bit-score>
+      <Hsp_score>698</Hsp_score>
+      <Hsp_evalue>1.81818e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVRYSELTDVRSEDLYKLRKKTFKDRLNWAVNCSNDMEFDEYDNPDTRYLLGVYQGQLICSVRFIPLRLPNMITHTFNALFSDVVLPTEGYIESSRFFVDKTRAQLLLGSRYPISYVFFLSIINYSRHHGYLGIYTIVSRAMFTILRRSGWQVEVIEEGDVAEKERIYLLRLPTDQNNQARLLRQVSQLLQDPDLTLSTWPMVLPII</Hsp_hseq>
+      <Hsp_midline>MLE+FDV Y EL  VRS++LY+LRKKTF DRL W V C+  MEFDE+DNP+TRY+LG+Y+GQLICSVRF+PL LPNMITHTF++ F DV LP  G +ESSRFFVDK+RA+ LLG RYP+S V FL++INY+R +   GIYTIVSRAM TIL+RSGWQV V++E  ++E+ERIYLL LPTD ++QA++  +++            WPM + +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|912948659|ref|WP_050318396.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Yersinia frederiksenii]</Hit_def>
+  <Hit_accession>WP_050318396</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.322</Hsp_bit-score>
+      <Hsp_score>695</Hsp_score>
+      <Hsp_evalue>4.86753e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVRYSELTDVRSEDLYKLRKKTFKDRLNWAVNCSNDMEFDEYDNPDTRYLLGIYQGQLICSVRFIPLRLPNMITHTFNSLFSNVVLPTEGYIESSRFFVDKTRAQLLLGSRYPISYVFFLSIINYSRHHGYLGIYTIVSRAMFTILRRSGWQVEVIEEGDVAEKERIYLLRLPTDQNNQARLLRQVSQLLQDPDLTLSTWPMVLPIV</Hsp_hseq>
+      <Hsp_midline>MLE+FDV Y EL  VRS++LY+LRKKTF DRL W V C+  MEFDE+DNP+TRY+LG+Y+GQLICSVRF+PL LPNMITHTF+S F +V LP  G +ESSRFFVDK+RA+ LLG RYP+S V FL++INY+R +   GIYTIVSRAM TIL+RSGWQV V++E  ++E+ERIYLL LPTD ++QA++  +++            WPM + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|910887925|ref|WP_050133469.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Yersinia frederiksenii]</Hit_def>
+  <Hit_accession>WP_050133469</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>1.31073e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVRYSELTDVRSEDLYKLRKKTFKDRLNWAVNCSNDMEFDEYDNPDTRYLLGVYQGQLICSVRFIPLRLPNMITHTFNALFSDVVLPTEGYIESSRFFVDKTRAQLLLGSRYPISYVFFLSIINYSRHHGYLGIYTIVSRAMFTILRRSGWQVEVIEEGDVAEKERIYLLRLPTDQNNQARLLQQVSQLLQDPDLTLSTWPMVLPIV</Hsp_hseq>
+      <Hsp_midline>MLE+FDV Y EL  VRS++LY+LRKKTF DRL W V C+  MEFDE+DNP+TRY+LG+Y+GQLICSVRF+PL LPNMITHTF++ F DV LP  G +ESSRFFVDK+RA+ LLG RYP+S V FL++INY+R +   GIYTIVSRAM TIL+RSGWQV V++E  ++E+ERIYLL LPTD ++QA++  +++            WPM + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1102627806|ref|WP_071588692.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Yersinia pestis]</Hit_def>
+  <Hit_accession>WP_071588692</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>1.36459e-85</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>LNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAF--EGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MTDIRSEDLYKLRKKTFKDRLNWEVNCSNGMEFDEYDNSDTRYLLGIYQGQLICSVRFIELHLPNMITHTFNALFDDVALPKRGYIESSRFFVDKTRAKLLFGNHYPISYLFFLSIINYSRHNGYTGIYTIVSRAMLTILKRSGWQVEVIKEAHITEKERIYLLHLPIDRDNQARLLLQVNQRLQDPCSV--LSTWPISLPVM</Hsp_hseq>
+      <Hsp_midline>+  +RS++LY+LRKKTF DRL W+V C+ GMEFDE+DN +TRY+LG+Y+GQLICSVRF+ L LPNMITHTF++ F DV+LP  G +ESSRFFVDK+RA+ L G  YP+S + FL++INY+R     GIYTIVSRAMLTILKRSGWQV V+KEA+++E+ERIYLL+LP D D+QA++  ++N    + CS+     WP+S+ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1160975532|ref|WP_079809502.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Salmonella enterica]</Hit_def>
+  <Hit_accession>WP_079809502</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.381</Hsp_bit-score>
+      <Hsp_score>664</Hsp_score>
+      <Hsp_evalue>3.51484e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>LELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPM</Hsp_qseq>
+      <Hsp_hseq>LEFFDVTYEVLTSSHAEELYRLRKITFSDRLGWDVICRKGMESDEFDTRGTRYILGVCGGHLVCSVRFVDLERPNMINRTFSACFGDVPLPPAGVESSRFFVDKVRVSQLPGKSFPVSQALFVAMINWARHNGYNGIHTIVSLPMLTILKRTGWKIDVLREAFLSEQERIYLLYLPTTAEDQACMASKLARVTGHKATD---WPM</Hsp_hseq>
+      <Hsp_midline>LE FDV+Y+ L    ++ELYRLRK TFSDRLGWDV+C +GME DEFD   TRYILG+  G L+CSVRFV LE PNMI  TF +CF DV LP   VESSRFFVDK R   L G+ +PVSQ LF+AMIN+AR    NGI+TIVS  MLTILKR+GW++ VL+EA+LSE+ERIYLLYLPT ++ QA MA+K+    G    +   WPM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|514865859|ref|WP_016604470.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase, partial [Yersinia pestis]</Hit_def>
+  <Hit_accession>WP_016604470</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>7.98024e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPA-GEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERI</Hsp_qseq>
+      <Hsp_hseq>MLEIFDVRYDELTDIRSEDLYKLRKKTFKDRLNWEVNCSNGMEFDEYDNSDTRYLLGIYQGQLICSVRFIELHLPNMITHTFNALFDDVALPKRGYIESSRFFVDKTRAKLLFGNHYPISYLFFLSIINYSRHNGYTGIYTIVSRAMLTILKRSGWQVEVIKEAHITEKERI</Hsp_hseq>
+      <Hsp_midline>MLE+FDV YDEL  +RS++LY+LRKKTF DRL W+V C+ GMEFDE+DN +TRY+LG+Y+GQLICSVRF+ L LPNMITHTF++ F DV+LP  G +ESSRFFVDK+RA+ L G  YP+S + FL++INY+R     GIYTIVSRAMLTILKRSGWQV V+KEA+++E+ERI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1126546951|ref|WP_075183425.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Pantoea sp. 1.19]</Hit_def>
+  <Hit_accession>WP_075183425</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>7.12045e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGE-VESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSVAVI</Hsp_qseq>
+      <Hsp_hseq>MLEIIDVNYASLPEITSEELYTLRKETFKDRLDWAVTCTNGMEFDEYDNVNTHYLLGICDHQLVCSVRFIETHLPNMITHTFHTFFADATLPAGNYVESSRFFVDKARAKTLLGAQFPVSTVLFLAMVNYARQQGYDGIYTICSKPMWTILKRSGWEIQVVQVGTSEKDKPVYLLFLPVDERNQCILAERVQAWSRDEHSTLNHWPMALKIM</Hsp_hseq>
+      <Hsp_midline>MLE+ DV+Y  L  + S+ELY LRK+TF DRL W V C  GMEFDE+DN NT Y+LG+ + QL+CSVRF+   LPNMITHTFH+ F D +LPAG  VESSRFFVDK+RA+ LLG ++PVS VLFLAM+NYARQ   +GIYTI S+ M TILKRSGW+++V++     +++ +YLL+LP D  +Q  +A ++ A+         HWPM++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1150807286|ref|WP_078000800.1|</Hit_id>
+  <Hit_def>acyl-homoserine-lactone synthase [Izhakiella sp. D4N98]</Hit_def>
+  <Hit_accession>WP_078000800</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.424</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>1.12104e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MLELFDVSYDELNGVRSDELYRLRKKTFSDRLGWDVVCNRGMEFDEFDNPNTRYILGLYEGQLICSVRFVPLELPNMITHTFHSCFHDVSLPAGEVESSRFFVDKSRARDLLGERYPVSQVLFLAMINYARQYNLNGIYTIVSRAMLTILKRSGWQVRVLKEAYLSEEERIYLLYLPTDSDSQAKMATKINAFEGCSLPEFEHWPMSV</Hsp_qseq>
+      <Hsp_hseq>MIEFIDVSYDDLMKIKSHEVFHLRKLTFSDRLQWDVKCFNNMEFDEFDNINTRYILGYHKNNLLCSVRFNPITKPNMIRDTFGYLFNDVSIPNEAIESSRFFVDKERARKLLGVNFPVGNFLFLSMIHFVRNIEGDGIYTIVSHAMTHILKRAGWDATIIKMAHLTPTERIYLLFLPTDKDSQLKVMGKIEEKLQPARVTISNWPLAV</Hsp_hseq>
+      <Hsp_midline>M+E  DVSYD+L  ++S E++ LRK TFSDRL WDV C   MEFDEFDN NTRYILG ++  L+CSVRF P+  PNMI  TF   F+DVS+P   +ESSRFFVDK RAR LLG  +PV   LFL+MI++ R    +GIYTIVS AM  ILKR+GW   ++K A+L+  ERIYLL+LPTD DSQ K+  KI      +     +WP++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>85584341</Statistics_db-num>
+      <Statistics_db-len>32757384950</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
