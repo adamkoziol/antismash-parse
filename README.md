@@ -8,7 +8,9 @@ analyses, and associates ORFs with the original strains, and descriptions extrac
 ### Installation
 
 ` git clone https://github.com/adamkoziol/antismash-parse.git`
+
 ` cd antismash-parse`
+
 `python3 setup.py install`
 
 ### Requirements
